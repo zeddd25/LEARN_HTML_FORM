@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>web form</title>
+    <link rel="shorcut icon" href="icon form.png" />
+    <style>
+      body {
+        background: url(https://img.freepik.com/free-vector/blue-fluid-background_53876-114597.jpg?w=1380&t=st=1673362244~exp=1673362844~hmac=a4ba8729066632710c3294fffe0de99dfb2514e36c513e02e71ef1d175829fc0);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+      }
+
+      header {
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+        background: #1abcc1;
+        width: 50%;
+        color: black;
+        font-size: 25px;
+        border: 50px outset;
+        margin: auto;
+      }
+
+      main {
+        text-align: center;
+        border: 2px solid black;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      hr {
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>BIODATA FORM</h1>
+    </header>
+    <br /><br />
+    <main>
+      <form action="">
+        <hr />
+        <label for="Fname"><i>First name</i> :</label>
+        <br /><br />
+        <input type="text" id="Fname" placeholder="Muhammad Dzilli" />
+        <br /><br />
+        <hr />
+        <label for="lname"><i>last name</i> :</label>
+        <br /><br />
+        <input type="text" id="lname" placeholder="Assajad" />
+        <br /><br />
+        <hr />
+        <label for="email"><i>email</i> :</label>
+        <br /><br />
+        <input type="email" id="email" placeholder="@dzilliassajad.gmail.com" />
+        <br /><br />
+        <hr />
+        <h2><i></i>status</h2>
+        <label for="maried">maried</label>
+        <input type="radio" id="maried" name="status" />
+        <label for="">single</label>
+        <input type="radio" id="single" name="status" />
+        <label for="">divorced</label>
+        <input type="radio" id="divorced" name="status" />
+        <br /><br />
+        <hr />
+        <h2>Favorite food</h2>
+        <label for="pizza">pizza</label>
+        <input type="checkbox" id="pizza" />
+        <label for="seafod">seafod</label>
+        <input type="checkbox" id="seafod" />
+        <label for="chicken">chicken</label>
+        <input type="checkbox" id="chicken" />
+        <label for="sushi">sushi</label>
+        <input type="checkbox" idsushi" />
+        <h2>Favorite drink</h2>
+        <label for="thai tea">thai tea</label>
+        <input type="checkbox" id="thai tea" />
+        <label for="lemonade">lemonade</label>
+        <input type="checkbox" id="lemonade" />
+        <label for="chocholate">chocholate</label>
+        <input type="checkbox" id="chocholate" />
+        <label for="juice">juice</label>
+        <input type="checkbox" id="juice" />
+        <br /><br />
+        <hr />
+        <label for="age">Your age</label>
+        <br /><br />
+        <input type="number" name="age" id="age" />
+        <br /><br />
+        <hr />
+        <h2>Gender</h2>
+        <select name="gender" id="gender">
+          <option value="famale">famale</option>
+          <option value="male">male</option>
+          <option value="other">other</option>
+        </select>
+        <br /><br />
+        <hr />
+        <h2>Adress</h2>
+        <textarea
+          name="adress"
+          id="adress"
+          cols="50"
+          rows="7"
+          placeholder="Indonesia,Jawa Barat,Kunigan,Ciawigebang,mekarjaya"
+        ></textarea>
+        <br /><br />
+        <input type="button" value="send" />
+      </form>
+    </main>
+  </body>
+</html>
